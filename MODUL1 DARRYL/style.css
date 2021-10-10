@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+/* Nav Bar */
+nav {
+    display: flex;
+    background-color: rgb(5, 48, 48);
+    justify-content: space-around;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    color: rgb(107, 114, 114);
+    text-decoration: none;
+
+}
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
