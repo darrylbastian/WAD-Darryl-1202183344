@@ -26,15 +26,26 @@ nav ul li a{
     text-decoration: none;
 
 }
-div{
+.Jumbotron{
+    text-align: center;
+}
+.textvideo{
     text-align: center;
 }
 h1{
     text-align: center;
 }
 form{
-    text-align: venter
+    text-align: center
     ;
 }
+.card1{
+    text-align: center;
+
+}
+
+
+
+
 
 
