@@ -10,7 +10,7 @@
     @elseif($allData->count() !== 0)
     <div class="col py-3">
         <h2 class="text-center">List Patient</h2>
-        <a href="{{route('create')}}" class="btn btn-primary py-2 px-4 my-4">Add Vaccine</a>
+        <a href="{{route('choose')}}" class="btn btn-primary py-2 px-4 my-4">Register Patient</a>
         <table class="table">
             <thead>
                 <tr>

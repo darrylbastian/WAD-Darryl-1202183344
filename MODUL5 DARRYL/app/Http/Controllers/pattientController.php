@@ -11,7 +11,7 @@ class pattientController extends Controller
 {
     //
     public function showData(){
-        $allData = Patient::paginate(6);
+        $allData = DB::table('patients')->paginate(5);
         return view('patient', compact('allData'));
     }
 
@@ -43,7 +43,7 @@ class pattientController extends Controller
         $patient->no_hp = $request->no_hp;
         $patient->save();
 
-        return view('patient');
+        return redirect('patient');
     }
 
     public function update($id){
